@@ -1,0 +1,17 @@
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\bin\Debug\exemploendor.exe.config
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\bin\Debug\exemploendor.exe
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\bin\Debug\exemploendor.pdb
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\exemploendor.csprojResolveAssemblyReference.cache
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\MainWindow.g.cs
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\App.g.cs
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\exemploendor_MarkupCompile.cache
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\exemploendor_MarkupCompile.lref
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\MainWindow.baml
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\exemploendor.g.resources
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\exemploendor.Properties.Resources.resources
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\exemploendor.csproj.GenerateResource.Cache
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\exemploendor.exe
+c:\users\diogo\documents\visual studio 2015\Projects\exemploendor\exemploendor\obj\Debug\exemploendor.pdb
+C:\Users\Diogo\Documents\Visual Studio 2015\Projects\calcbooleana\exemploendor\bin\Debug\exemploendor.exe.config
+C:\Users\Diogo\Documents\Visual Studio 2015\Projects\calcbooleana\exemploendor\obj\Debug\exemploendor.exe
+C:\Users\Diogo\Documents\Visual Studio 2015\Projects\calcbooleana\exemploendor\obj\Debug\exemploendor.pdb

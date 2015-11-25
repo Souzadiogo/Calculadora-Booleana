@@ -1,0 +1,114 @@
+﻿<Window x:Class="exemploendor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exemploendor"
+        mc:Ignorable="d"
+        Title="Calculadora Booleana" Height="479.72" Width="334.091">
+    <Grid>
+        <Button x:Name="btnand"
+                Content="And"
+                HorizontalAlignment="Left"
+                Margin="46,147,0,0"
+                VerticalAlignment="Top" 
+                Width="57"
+                Click="btnand_Click"
+                FontSize="13.333" 
+                Height="32"/>
+        <TextBox x:Name="txtvar1" 
+                 HorizontalAlignment="Left"
+                 Height="34" 
+                 Margin="29,90,0,0" 
+                 TextWrapping="Wrap"  
+                 VerticalAlignment="Top" 
+                 Width="120" FontSize="18.667" 
+                 TextAlignment="Center"
+                 MaxLength="1" />
+        <TextBox x:Name="txtvar2" 
+                 HorizontalAlignment="Left"
+                 Height="35"
+                 Margin="169,90,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Width="120" FontSize="18.667"
+                 TextAlignment="Center" 
+                 TextChanged="txtvar2_TextChanged"
+                 MaxLength ="1" />
+        <TextBox x:Name="result" 
+                 HorizontalAlignment="Left" 
+                 Height="35" Margin="94,280,0,0"
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="120" FontSize="18.667" 
+                 TextAlignment="Center" TextChanged="result_TextChanged"/>
+        <Button x:Name="btnor" 
+                Content="Or"
+                HorizontalAlignment="Left" 
+                Margin="126,147,0,0" 
+                VerticalAlignment="Top" 
+                Width="57"
+        	Click="btnor_Click"
+                FontSize="13.333"
+                Height="32" RenderTransformOrigin="0.553,-0.161"/>
+        <Button x:Name="btnxor"
+                Content="Xor" 
+                HorizontalAlignment="Left"
+                Margin="126,195,0,0" 
+                VerticalAlignment="Top" Width="57"
+        	Click="btnxor_Click"
+                FontSize="13.333" Height="32"/>
+        <Button x:Name="btnnotx" 
+                Content="Not" 
+                HorizontalAlignment="Left"
+                Margin="203,147,0,0" 
+                VerticalAlignment="Top" Width="57"
+        	    Click="btnnot_Click"
+                FontSize="13.333" Height="32"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="121,251,0,0" TextWrapping="Wrap" Text="Resultado" VerticalAlignment="Top" Height="24" Width="119" FontSize="16"/>
+        <CheckBox x:Name="checkBoxa" 
+                  Content="Negar" 
+                  HorizontalAlignment="Left"
+                  Margin="61,68,0,0" 
+                  VerticalAlignment="Top" Checked="checkBoxa_Checked" Width="72" RenderTransformOrigin="0.739,0.141" Height="16" VerticalContentAlignment="Stretch"/>
+        <CheckBox x:Name="checkBoxb" 
+                  Content="Negar"
+                  HorizontalAlignment="Left" 
+                  Margin="203,68,0,0" 
+                  VerticalAlignment="Top" 
+                  Width="57" 
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto" VerticalContentAlignment="Bottom" Checked="checkBoxb_Checked"/>
+        <TextBlock x:Name="txtval1"
+                   HorizontalAlignment="Left"
+                   Margin="61,47,0,0" TextWrapping="Wrap"
+                   Text="Valor 1" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtval2"
+                   HorizontalAlignment="Left"
+                   Margin="203,47,0,0" TextWrapping="Wrap"
+                   Text="Valor 2" VerticalAlignment="Top"/>
+        <Button x:Name="btnclear"
+                Content="Limpar" 
+                HorizontalAlignment="Left" 
+                Margin="105,324,0,0" 
+                VerticalAlignment="Top"
+                Width="98" 
+                RenderTransformOrigin="0.5,0.5" 
+                Height="35" Click="btnclear_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.038"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label" 
+               Content="Diogo Souza" 
+               HorizontalAlignment="Left" 
+               Margin="218,409,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+
+
+    </Grid>
+</Window>
